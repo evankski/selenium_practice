@@ -17,6 +17,6 @@ class Calculator:
         print("I am now doing stuff as a method in a class")
 
 
-object = Calculator()  # This is the syntax to create an object inside of python
+object = Calculator(2,3)  # This is the syntax to create an object inside of python
 object.getData()
 print(object.num)
