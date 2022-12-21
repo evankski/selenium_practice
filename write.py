@@ -16,4 +16,3 @@ with open('test.txt', 'r') as reader:
         for line in reversed(content):
             writer.write(line)
             # we reversed the list and wrote it back to the test.txt file
-
